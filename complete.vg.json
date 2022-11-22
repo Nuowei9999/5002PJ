@@ -51,9 +51,8 @@
               }
             },
             "tooltip": [
-              {"field": "frequency","aggregate":"sum", "type": "quantitative"},
-              {"field": "STATE", 
-              "type": "nominal"}
+              {"field": "STATE", "type": "nominal"},
+              {"field": "frequency","aggregate":"sum", "type": "quantitative"}
             ]
           },
           "layer": [
